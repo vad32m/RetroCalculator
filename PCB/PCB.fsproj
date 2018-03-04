@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***************************************-->
+<!--   File    : PCB.fsproj                -->
+<!--   Format  : TopoR Project file        -->
+<!--   Version : 2                         -->
+<!--   Program : TopoR Lite 6.3.18186      -->
+<!--   Date    : Sunday, February 25, 2018 -->
+<!--   Time    : 19:23                     -->
+<!--***************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{CD9F6560-2456-4596-B12A-6E78A752EC2C}</GUID>
+   <Documents>
+      <Section name="PCB"/>
+      <Section name="AutoRouting"/>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="D:\Source_and_Projects\Electronic_circuits\VFD_Calculator\PCB\VFD_calc.dsn"/>
+      </Specctra>
+   </Import>
+</Project>

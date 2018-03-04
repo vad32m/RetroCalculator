@@ -1,0 +1,407 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:microcontrollers
+LIBS:microchip
+LIBS:analog_switches
+LIBS:interface
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:indic_sssr
+LIBS:misc_sssr
+LIBS:misc_components
+LIBS:diode
+LIBS:VFD_calc-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 26 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_Push_45deg SW2
+U 1 1 5AB215F6
+P 5700 2400
+F 0 "SW2" H 5820 2440 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5700 2250 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 5700 2400 50  0001 C CNN
+F 3 "" H 5700 2400 50  0001 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW6
+U 1 1 5AB216CD
+P 6300 2375
+F 0 "SW6" H 6420 2415 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6300 2225 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6300 2375 50  0001 C CNN
+F 3 "" H 6300 2375 50  0001 C CNN
+	1    6300 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW10
+U 1 1 5AB21715
+P 6900 2375
+F 0 "SW10" H 7020 2415 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6900 2225 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6900 2375 50  0001 C CNN
+F 3 "" H 6900 2375 50  0001 C CNN
+	1    6900 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW14
+U 1 1 5AB21738
+P 7500 2375
+F 0 "SW14" H 7620 2415 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7500 2225 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 7500 2375 50  0001 C CNN
+F 3 "" H 7500 2375 50  0001 C CNN
+	1    7500 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW17
+U 1 1 5AB21769
+P 8150 2375
+F 0 "SW17" H 8270 2415 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8150 2225 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 8150 2375 50  0001 C CNN
+F 3 "" H 8150 2375 50  0001 C CNN
+	1    8150 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW3
+U 1 1 5AB217DF
+P 5700 2900
+F 0 "SW3" H 5820 2940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5700 2750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 5700 2900 50  0001 C CNN
+F 3 "" H 5700 2900 50  0001 C CNN
+	1    5700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW7
+U 1 1 5AB21808
+P 6300 2900
+F 0 "SW7" H 6420 2940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6300 2750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6300 2900 50  0001 C CNN
+F 3 "" H 6300 2900 50  0001 C CNN
+	1    6300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW11
+U 1 1 5AB21847
+P 6900 2900
+F 0 "SW11" H 7020 2940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6900 2750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6900 2900 50  0001 C CNN
+F 3 "" H 6900 2900 50  0001 C CNN
+	1    6900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW15
+U 1 1 5AB218B0
+P 7500 2900
+F 0 "SW15" H 7620 2940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7500 2750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 7500 2900 50  0001 C CNN
+F 3 "" H 7500 2900 50  0001 C CNN
+	1    7500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW18
+U 1 1 5AB2192E
+P 8150 2900
+F 0 "SW18" H 8270 2940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8150 2750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 8150 2900 50  0001 C CNN
+F 3 "" H 8150 2900 50  0001 C CNN
+	1    8150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW4
+U 1 1 5AB21E96
+P 5700 3400
+F 0 "SW4" H 5820 3440 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5700 3250 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 5700 3400 50  0001 C CNN
+F 3 "" H 5700 3400 50  0001 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW8
+U 1 1 5AB21E9C
+P 6300 3400
+F 0 "SW8" H 6420 3440 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6300 3250 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6300 3400 50  0001 C CNN
+F 3 "" H 6300 3400 50  0001 C CNN
+	1    6300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW12
+U 1 1 5AB21EA2
+P 6900 3400
+F 0 "SW12" H 7020 3440 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6900 3250 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW16
+U 1 1 5AB21EA8
+P 7500 3400
+F 0 "SW16" H 7620 3440 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7500 3250 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 7500 3400 50  0001 C CNN
+F 3 "" H 7500 3400 50  0001 C CNN
+	1    7500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW19
+U 1 1 5AB21EAE
+P 8150 3400
+F 0 "SW19" H 8270 3440 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8150 3250 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 8150 3400 50  0001 C CNN
+F 3 "" H 8150 3400 50  0001 C CNN
+	1    8150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW5
+U 1 1 5AB21FA9
+P 5700 3900
+F 0 "SW5" H 5820 3940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5700 3750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 5700 3900 50  0001 C CNN
+F 3 "" H 5700 3900 50  0001 C CNN
+	1    5700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW9
+U 1 1 5AB21FAF
+P 6300 3900
+F 0 "SW9" H 6420 3940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6300 3750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6300 3900 50  0001 C CNN
+F 3 "" H 6300 3900 50  0001 C CNN
+	1    6300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW13
+U 1 1 5AB21FB5
+P 6900 3900
+F 0 "SW13" H 7020 3940 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6900 3750 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 6900 3900 50  0001 C CNN
+F 3 "" H 6900 3900 50  0001 C CNN
+	1    6900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3700 8250 3700
+Wire Wire Line
+	5150 3175 8250 3175
+Wire Wire Line
+	5150 2675 8250 2675
+Wire Wire Line
+	8250 3175 8250 3000
+Wire Wire Line
+	7600 3000 7600 3175
+Connection ~ 7600 3175
+Wire Wire Line
+	7000 3000 7000 3175
+Connection ~ 7000 3175
+Wire Wire Line
+	6400 3000 6400 3175
+Connection ~ 6400 3175
+Wire Wire Line
+	5800 3000 5800 3175
+Connection ~ 5800 3175
+Wire Wire Line
+	5800 2500 5800 2675
+Connection ~ 5800 2675
+Wire Wire Line
+	6400 2475 6400 2675
+Connection ~ 6400 2675
+Wire Wire Line
+	7000 2475 7000 2675
+Connection ~ 7000 2675
+Wire Wire Line
+	7600 2475 7600 2675
+Connection ~ 7600 2675
+Wire Wire Line
+	8250 3700 8250 3500
+Wire Wire Line
+	7600 3500 7600 3700
+Connection ~ 7600 3700
+Wire Wire Line
+	7000 3500 7000 3700
+Connection ~ 7000 3700
+Wire Wire Line
+	6400 3500 6400 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	5800 3500 5800 3700
+Connection ~ 5800 3700
+Wire Wire Line
+	5150 4200 7000 4200
+Wire Wire Line
+	7000 4200 7000 4000
+Wire Wire Line
+	6400 4000 6400 4200
+Connection ~ 6400 4200
+Wire Wire Line
+	5800 4000 5800 4200
+Connection ~ 5800 4200
+Wire Wire Line
+	5600 2025 5600 3800
+Wire Wire Line
+	6200 1925 6200 3800
+Wire Wire Line
+	8050 1625 8050 3300
+Connection ~ 8050 2800
+Wire Wire Line
+	7400 1725 7400 3300
+Connection ~ 7400 2800
+Wire Wire Line
+	6800 1825 6800 3800
+Connection ~ 6800 3300
+Connection ~ 6800 2800
+Connection ~ 6200 3300
+Connection ~ 6200 2800
+Connection ~ 5600 2800
+Connection ~ 5600 3300
+$Comp
+L 74HC164 D7
+U 1 1 5AB24742
+P 4825 1725
+F 0 "D7" H 4625 2125 60  0000 C CNN
+F 1 "74HC164" H 4925 2025 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4525 2025 60  0001 C CNN
+F 3 "" H 4825 1725 60  0001 C CNN
+	1    4825 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5425 2025 5600 2025
+Connection ~ 5600 2300
+Wire Wire Line
+	5425 1925 6200 1925
+Connection ~ 6200 2275
+Wire Wire Line
+	5425 1825 6800 1825
+Connection ~ 6800 2275
+Wire Wire Line
+	7400 1725 5425 1725
+Connection ~ 7400 2275
+Wire Wire Line
+	5425 1625 8050 1625
+Connection ~ 8050 2275
+$Comp
+L +5V #PWR038
+U 1 1 5AB25249
+P 4125 1525
+F 0 "#PWR038" H 4125 1375 50  0001 C CNN
+F 1 "+5V" H 4125 1665 50  0000 C CNN
+F 2 "" H 4125 1525 50  0001 C CNN
+F 3 "" H 4125 1525 50  0001 C CNN
+	1    4125 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 5AB25283
+P 4125 2400
+F 0 "#PWR039" H 4125 2150 50  0001 C CNN
+F 1 "GND" H 4125 2250 50  0000 C CNN
+F 2 "" H 4125 2400 50  0001 C CNN
+F 3 "" H 4125 2400 50  0001 C CNN
+	1    4125 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4125 2400 4125 2325
+Wire Wire Line
+	4125 2325 4225 2325
+Wire Wire Line
+	3800 1625 4225 1625
+Wire Wire Line
+	4125 1625 4125 1525
+Wire Wire Line
+	3850 1725 4225 1725
+Wire Wire Line
+	3850 1725 3850 1825
+Wire Wire Line
+	3175 1825 4225 1825
+$Comp
+L R R83
+U 1 1 5AB25407
+P 3650 1625
+F 0 "R83" V 3730 1625 50  0000 C CNN
+F 1 "10K" V 3650 1625 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3580 1625 50  0001 C CNN
+F 3 "" H 3650 1625 50  0001 C CNN
+	1    3650 1625
+	0    1    1    0   
+$EndComp
+Connection ~ 4125 1625
+Wire Wire Line
+	4225 2025 3350 2025
+Wire Wire Line
+	3350 2025 3350 1625
+Wire Wire Line
+	3350 1625 3500 1625
+Text HLabel 3175 1825 0    60   Input ~ 0
+COL_DIN
+Connection ~ 3850 1825
+Wire Wire Line
+	4225 1925 3175 1925
+Text HLabel 3175 1925 0    60   Input ~ 0
+COL_CLK
+Text HLabel 5150 2675 0    60   Input ~ 0
+ROW_1
+Text HLabel 5150 3175 0    60   Input ~ 0
+ROW_2
+Text HLabel 5150 3700 0    60   Input ~ 0
+ROW_3
+Text HLabel 5150 4200 0    60   Input ~ 0
+ROW_4
+Wire Wire Line
+	8250 2675 8250 2475
+Connection ~ 8250 2675
+$EndSCHEMATC

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MP26
+D -40V Vce, -0.2A Ic, PNP, Small Signal Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+$ENDCMP
+#
+#End Doc Library

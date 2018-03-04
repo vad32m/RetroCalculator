@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Soviet_parts)(type KiCad)(uri ${KIPRJMOD}/soviet_parts.pretty)(options "")(descr ""))
+)
