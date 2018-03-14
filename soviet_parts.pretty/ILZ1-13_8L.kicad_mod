@@ -39,4 +39,9 @@
   (pad 25 thru_hole circle (at 40.69 21.67) (size 2.54 2.54) (drill 0.8) (layers *.Cu *.Mask))
   (pad 26 thru_hole circle (at 44.39 21.67) (size 2.54 2.54) (drill 0.8) (layers *.Cu *.Mask))
   (pad 27 thru_hole circle (at 48.09 21.67) (size 2.54 2.54) (drill 0.8) (layers *.Cu *.Mask))
+  (model D:/Source_and_Projects/RetroCalculator/MCAD/Components/ILZ.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
 )
